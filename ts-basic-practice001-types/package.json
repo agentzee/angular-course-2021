@@ -1,0 +1,24 @@
+{
+  "name": "ts-basic-practice001-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts --full-trace=false",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "chai": "^4.2.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^3.6.5"
+  },
+  "dependencies": {
+    "@types/mocha": "^9.0.0",
+    "mocha": "^9.1.3"
+  }
+}
