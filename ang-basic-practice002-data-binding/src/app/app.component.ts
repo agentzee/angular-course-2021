@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import pricing from './pricing';
 
 @Component({
   selector: 'app-root',
@@ -17,13 +16,7 @@ export class AppComponent {
   ];
 
 
-prices = pricing;
-links: [string,string][]= [
-  ["Szolgáltatások","/szolg"],
-  ["Vállalati ügyfelek","/corporate"],
-  ["Támogatás","/support"],
-  ["Szolgáltatások","/prices"],
-]
+
 
   regButtonText: string = 'Regisztráció';
 }
